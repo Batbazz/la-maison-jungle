@@ -1,9 +1,11 @@
 import Banner from './Banner'
+import Cart from'./Cart'
 
 function App() {
-  return (
+  return (<div>
     <Banner />
-  )
+    <Cart />
+  </div>)
 }
 
 export default App;
